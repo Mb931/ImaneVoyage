@@ -1,0 +1,63 @@
+
+h1 {
+	font-size: 2em;
+	color: #008080; /* bleu */
+	text-align: center;
+	
+	}
+
+h3 {
+	font-size: 2em;
+	color: #008080; /* bleu */
+	text-align: center;
+	
+	}
+
+#menu ul{
+	margin:0;
+	padding:0;
+}
+
+
+#menu li{
+	list-style:none;
+	float: left;
+	position:relative;
+	background-color:#FFFFFF;
+}
+
+#menu ul li a{
+	color:#008080;
+	text-decoration:none;
+	width:148px;
+	height:35px;
+	display:block;
+	text-align:center;
+	border: 1px solid #008080;
+	font-size:15px;
+	
+}
+
+#menu ul ul{
+	position: absolute;
+	top:31px;
+	visibility:hidden;
+}
+
+#menu ul li:hover ul{
+	visibility:visible;	
+}
+#menu li:hover{
+	background-color:#FFF;
+}
+
+#menu ul li ul a:hover{
+	color:#008080;
+	background-color:#FFFFF;
+}
+
+#bendo ul li a{
+	color:#008080;	
+	text-align:center;
+	text-decoration:none;
+}

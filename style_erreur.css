@@ -1,0 +1,10 @@
+body{
+	background-size: 10%;
+	background-repeat:no-repeat;
+	background-position: center;
+	font-family: Arial, "sans serif";
+	font-size: 1.50em;
+	color: #FF0000;				/* couleur : rouge */
+	text-align:center;
+	text-decoration: none;		
+}
